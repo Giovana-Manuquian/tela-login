@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+
+body {
+    max-width: 1200px;
+    font: 100%;
+    color: black;
+    margin: 0 auto;
+    padding: 15px;
+    background-image: url('/Login/img/banner.png');
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+.titulo {
+    flex-direction: column;
+    line-height: 10px;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: Righteous;
+    padding-left: 100px;
+}
+
+span {
+    color: #FFFCBF;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-right: 90px;
+    justify-content: flex-end;
+}
+
+.conteudo-login {
+    background-color: whitesmoke;
+    opacity: 0.8;
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form [type="submit"] {
+    width: 100px;
+    height: 40px;
+    background-color: #FFFCBF;
+    font-weight: bold;
+    line-height: 5px;
+    border-radius: 10px;
+    border-bottom: 1px solid #323232;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 10px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 8px;
+    border: 1px solid;
+    font-size: 15px;
+    font-family: Sarala;
+    font-weight: 400;
+}
